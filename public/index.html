@@ -7,7 +7,6 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
 <title>Ayesha Khan | Exclusive Access</title>
-
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -17,9 +16,7 @@
         darkMode: "class",
         theme: {
             extend: {
-                fontFamily: {
-                    sans: ['"Plus Jakarta Sans"', 'sans-serif']
-                },
+                fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] },
                 colors: {
                     premium: {
                         gold: "#D4AF37",
@@ -51,12 +48,8 @@
                         }
                     },
                     bounceX: {
-                        '0%, 100%': {
-                            transform: 'translateX(0)'
-                        },
-                        '50%': {
-                            transform: 'translateX(4px)'
-                        }
+                        '0%, 100%': { transform: 'translateX(0)' },
+                        '50%': { transform: 'translateX(4px)' }
                     }
                 }
             },
@@ -146,9 +139,7 @@
     }
 </style>
 
-<!-- Cashfree SDK -->
 <script src="https://sdk.cashfree.com/js/v3/cashfree.js"></script>
-
 </head>
 
 <body class="relative min-h-screen pb-48 bg-[#050505]">
@@ -157,7 +148,6 @@
 
 <main class="max-w-md mx-auto relative z-10 animate-fade-in-up">
 
-    <!-- COVER -->
     <div class="w-full relative group">
 
         <img
@@ -167,13 +157,10 @@
         >
 
         <div class="absolute top-2 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/10">
-
             <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
-
             <span class="text-[9px] font-bold text-white uppercase tracking-wider">
                 Online
             </span>
-
         </div>
 
         <div class="absolute bottom-0 right-2 transform translate-y-1/2 z-20">
@@ -193,7 +180,6 @@
     </div>
 
 
-    <!-- PROFILE -->
     <div class="px-5 mt-7 mb-4 flex justify-between items-start">
 
         <div class="flex-1 pr-2">
@@ -225,17 +211,13 @@
                     id="text-2"
                     class="absolute top-0 left-0 w-full text-xs font-medium slide-text slide-hidden whitespace-nowrap"
                 >
-
                     <i class="fas fa-images text-green-400 mr-1"></i>
-
                     <span class="text-green-400 font-bold">
                         200+ Photos/Videos
                     </span>
-
                     <span class="text-gray-400">
                         Inside
                     </span>
-
                 </p>
 
             </div>
@@ -264,7 +246,6 @@
     </div>
 
 
-    <!-- TIMER -->
     <div class="mx-4 mb-8">
 
         <div class="timer-strip rounded-xl p-3 flex items-center justify-between shadow-[0_0_20px_rgba(255,0,51,0.15)] relative overflow-hidden">
@@ -314,11 +295,9 @@
 
                 </div>
 
-
                 <span class="text-xs text-premium-red font-bold -mt-3 animate-pulse">
                     :
                 </span>
-
 
                 <div class="flex flex-col items-center gap-0.5">
 
@@ -335,11 +314,9 @@
 
                 </div>
 
-
                 <span class="text-xs text-premium-red font-bold -mt-3 animate-pulse">
                     :
                 </span>
-
 
                 <div class="flex flex-col items-center gap-0.5">
 
@@ -363,7 +340,6 @@
     </div>
 
 
-    <!-- PREVIEWS -->
     <div class="px-0">
 
         <div class="flex items-center justify-between px-5 mb-3">
@@ -371,21 +347,16 @@
             <h2 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
 
                 <i class="fas fa-play-circle text-premium-gold"></i>
-
                 Previews
 
             </h2>
 
             <span class="text-[10px] text-gray-500 font-medium">
-
                 Swipe
-
                 <i class="fas fa-chevron-right text-[8px] ml-0.5"></i>
-
             </span>
 
         </div>
-
 
         <div
             id="videoScroller"
@@ -398,6 +369,7 @@
 
 
 <!-- PAYMENT BUTTON -->
+
 <div class="fixed bottom-0 left-0 right-0 z-50 p-4 pt-10 bg-gradient-to-t from-[#050505] via-[#050505]/98 to-transparent">
 
     <a
@@ -408,7 +380,6 @@
 
         <div class="absolute -inset-[2px] rounded-2xl bg-gradient-to-r from-premium-gold/40 via-red-500/40 to-premium-gold/40 blur-sm opacity-70 group-hover:opacity-100 transition duration-500 animate-pulse"></div>
 
-
         <button
             class="relative w-full h-[72px] bg-[#0f0f0f] rounded-2xl flex items-center justify-between px-5 border border-white/10 overflow-hidden shadow-2xl transition-all duration-300"
         >
@@ -416,7 +387,6 @@
             <div class="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/10 to-transparent pointer-events-none"></div>
 
             <div class="absolute inset-0 -translate-x-full animate-shimmer bg-gradient-to-r from-transparent via-white/10 to-transparent skew-x-12"></div>
-
 
             <div class="flex flex-col items-start z-10">
 
@@ -442,7 +412,6 @@
 
             </div>
 
-
             <div class="z-10 pl-4">
 
                 <div class="w-11 h-11 rounded-full bg-gradient-to-br from-[#FDE68A] to-[#D4AF37] text-black flex items-center justify-center shadow-[0_4px_10px_rgba(212,175,55,0.4)] animate-bounce-x">
@@ -458,7 +427,6 @@
     </a>
 
 
-    <!-- PAYMENT LOGOS -->
     <div class="flex justify-center items-center mt-3 mb-1">
 
         <div class="flex items-center gap-4 bg-white/10 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/10">
@@ -576,15 +544,11 @@
 
         const LAST_RESET_MS = 10 * 1000;
 
-
         function randomDuration() {
-
             return Math.floor(
                 Math.random() * (MAX_MS - MIN_MS + 1)
             ) + MIN_MS;
-
         }
-
 
         function setNewExpiry() {
 
@@ -595,9 +559,7 @@
             } catch {}
 
             return e;
-
         }
-
 
         function getExpiry() {
 
@@ -612,16 +574,13 @@
             } catch {}
 
             return setNewExpiry();
-
         }
-
 
         let expiresAt = getExpiry();
 
         const elH = document.getElementById('cd-hours');
         const elM = document.getElementById('cd-mins');
         const elS = document.getElementById('cd-secs');
-
 
         function updateDisplay(ms) {
 
@@ -647,7 +606,6 @@
 
         }
 
-
         function tick() {
 
             let rem = expiresAt - Date.now();
@@ -663,7 +621,6 @@
             updateDisplay(rem);
 
         }
-
 
         tick();
 
@@ -709,7 +666,6 @@
 
     ];
 
-
     const scroller =
         document.getElementById('videoScroller');
 
@@ -720,7 +676,6 @@
 
         card.className =
             `relative flex-shrink-0 w-[38%] aspect-[9/16] rounded-xl overflow-hidden glass-panel snap-center border border-white/10 group shadow-lg`;
-
 
         if (vid.locked) {
 
@@ -798,10 +753,8 @@
 
             `;
 
-
             const video =
                 card.querySelector('video');
-
 
             card.addEventListener('click', () => {
 
@@ -812,7 +765,6 @@
                         .forEach(v => {
 
                             v.pause();
-
                             v.muted = true;
 
                             const p =
@@ -824,9 +776,7 @@
 
                         });
 
-
                     video.muted = false;
-
                     video.play();
 
                     card
@@ -851,7 +801,6 @@
 
         }
 
-
         scroller.appendChild(card);
 
     });
@@ -872,13 +821,9 @@
 
         var startTime = null;
 
-
         function easeOutQuad(t) {
-
             return t * (2 - t);
-
         }
-
 
         function tick(ts) {
 
@@ -899,27 +844,19 @@
                     easeOutQuad(p)
                 );
 
-
             if (current < end) {
                 current = end;
             }
 
-
             priceEl.textContent = current;
 
-
             if (p < 1) {
-
                 requestAnimationFrame(tick);
-
             } else {
-
                 priceEl.textContent = end;
-
             }
 
         }
-
 
         requestAnimationFrame(tick);
 
@@ -927,7 +864,7 @@
 
 
     // --- 5. CASHFREE PAYMENT CTA ---
-    // NO MOBILE NUMBER PROMPT
+    // MOBILE NUMBER PROMPT REMOVED
 
     document
         .getElementById('payBtn')
@@ -935,19 +872,15 @@
 
             e.preventDefault();
 
-
             const btn =
                 this.querySelector('button');
 
             const original =
                 btn.innerHTML;
 
-
             btn.disabled = true;
 
-
             btn.innerHTML = `
-
                 <div class="flex flex-col items-center justify-center leading-tight">
 
                     <span class="text-white/90 text-[10px] font-medium tracking-wide uppercase mb-0.5">
@@ -965,9 +898,7 @@
                     </div>
 
                 </div>
-
             `;
-
 
             try {
 
@@ -986,10 +917,8 @@
                         }
                     );
 
-
                 const data =
                     await r.json().catch(() => ({}));
-
 
                 if (
                     !r.ok ||
@@ -1003,7 +932,6 @@
 
                 }
 
-
                 if (!window.Cashfree) {
 
                     throw new Error(
@@ -1012,14 +940,12 @@
 
                 }
 
-
                 const cashfree =
                     Cashfree({
                         mode:
                             data.mode ||
                             'sandbox'
                     });
-
 
                 await cashfree.checkout({
 
@@ -1031,17 +957,14 @@
 
                 });
 
-
             } catch(err) {
 
                 console.error(err);
-
 
                 alert(
                     err.message ||
                     'Payment could not be started.'
                 );
-
 
                 btn.disabled = false;
 
