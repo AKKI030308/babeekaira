@@ -1,8 +1,9 @@
 {
-  "version": 2,
-  "functions": {
-    "api/*.js": {
-      "runtime": "nodejs22.x"
-    }
+  "name": "creator-cashfree-telegram",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
   }
 }
